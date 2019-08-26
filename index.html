@@ -5,11 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My react based games</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Play some games a I wrote in React JS</h1>
     <a href="/mastermind/index.html">Click here to play mastermind (Mobile friendly).</a></br>
-    <a href="/4inarow/index.html">Click here to play 4 in a row (Requires two players).</a><br>
-    <a href="/snake/index.html">Click here to Snake (beta) (PC only, requires a keyboard).</a><br>
+    <ul>
+        <li>Click on a pin (round button) to set a color</li>
+        <li>Once you've selected 4 colors, confirm by clicking 'Done!'</li>
+        <li>The game will give you a hints
+            <ul>
+                <li style="color: red">Red means the right color in the right position</li>
+                <li>White means the right color in the wrong position.</li>
+            </ul>
+        </li>
+        <li>Use these hits to guess the code.</li>
+    </ul>
+    <a href="/4inarow/index.html">Click here to play 4 in a row</a><br>
+    <ul>
+        <ul>Requires two players</ul>
+        <ul>Tweak the settings to your linking. The default is the official 4 in a row rules</ul>
+        <ul>Play in turns, try to get for blocks in a row horizantally, vertically or diagonally</ul>
+    </ul>
+    <a href="/snake/index.html">Click here to Snake(PC only, requires a keyboard).</a><br>
+    <ul>
+        <li>Use the arrows keys to move</li>
+        <li>Pick up fruit (red dot) to increase your score</li>
+        <li>Every fruit you pick up will increase the length of the snake by 1 block</li>
+        <li>If you hit the edge of the game field, you die</li>
+        <li>If your tail, you die</li>
+    </ul>
 </body>
 </html>
